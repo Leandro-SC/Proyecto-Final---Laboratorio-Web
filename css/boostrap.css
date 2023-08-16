@@ -1,19 +1,21 @@
 
 
+.nav-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
 
 
+.nav-link:hover {
+    color: black;
+    background-color: orange;
+    font-size: 16px;
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 

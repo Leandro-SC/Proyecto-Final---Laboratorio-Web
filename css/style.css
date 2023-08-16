@@ -27,22 +27,22 @@ a {
     font-family: 'Roboto Slab', serif;
 }
 
-/*Titulo principal y logo*/
 
-/*Cabecera */
-#cabecera {
-    height: 100px;
-    background-color: #1B98E0;
+/* Estilo para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#cabecera h1 {
-    color: #fff;
-    text-transform: uppercase;
-    margin-left: 35%;
-
+.fondo {
+    background: #1B98E0;
 }
 
+
+/* Estilo para la imagen del icono */
 #img-icono {
     height: 55px;
     width: 90px;
@@ -51,85 +51,32 @@ a {
     transition: transform 1s ease-in-out 0s;
 }
 
-#img-icono:hover {
-    transform: rotate3d(0, 1, 0, 180deg);
-}
 
-#titulo:hover {
-    font-size: 35px;
-    color: rgb(236, 236, 110);
-}
-
-
-@media (min-width: 768px) {
-
-    #cabecera {
-        height: 70px;
-        width: auto;
-        background-color: #1B98E0;
-        display: flex;
-        align-items: center;
-    }
-
+/* Estilo para el contenido del menú */
+.header-content {
+    display: flex;
+    align-items: center;
 }
 
 
-@media (max-width: 767px) {
-
-    #cabecera {
-        height: auto;
-        width: auto;
-        background-color: #1B98E0;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-   
-    }
-
-    .img-icono{
-        margin: 20px;
-
-    }
-
-    #titulo{
-        font-size: 20px;
-        width: auto;
-        margin: 15px;
-        justify-content: center;
-        text-align: center;
-    }
-
+#titulo-nosotros {
+    background: #1B98E0;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
 
+.subtitulo-nosotros {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
 
+/* .parrafo-nosotros p {
+    text-align: justify;
+} */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.justificar-parrafo{
+    text-align: justify;
+}
