@@ -73,10 +73,94 @@ header {
     font-weight: bold;
 }
 
-/* .parrafo-nosotros p {
-    text-align: justify;
-} */
 
 .justificar-parrafo{
     text-align: justify;
 }
+
+.cuerpo-post{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.btn-position{
+    margin: 20px;
+    background: #127cdd;
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.btn-position:hover{
+    background: #dda712;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fondo-blog{
+    background: rgba(183, 227, 253, 0.38);
+}
+
+/*Titulo y cuerpo del post*/
+
+.titulo-blog{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.subtitulo-post{
+    font-weight: bold;
+
+}
+
+.parrafo-post{
+    padding: 15px;
+    text-align: justify;
+}
+
+/*Footer del Post*/
+
+.pie-post{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.img-calendario{
+    height: 30px;
+    width: 26px;
+}
+
+.parrafo-pie-post{
+   font-size: 12px;
+   margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

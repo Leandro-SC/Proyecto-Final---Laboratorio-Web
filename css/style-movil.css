@@ -1,0 +1,44 @@
+
+@media (max-width: 768px) {
+    .cuerpo-post{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-position{
+        width: 400px;
+    }
+
+    
+
+    .fondo-btn{
+        display: flex;
+        width: auto;
+        justify-content: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
