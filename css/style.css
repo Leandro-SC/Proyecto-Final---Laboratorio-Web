@@ -52,7 +52,7 @@ header {
 }
 
 
-/* Estilo para el contenido del menú */
+/* Estilos de la seccion Nosotros*/
 .header-content {
     display: flex;
     align-items: center;
@@ -77,6 +77,8 @@ header {
 .justificar-parrafo{
     text-align: justify;
 }
+
+/* Estilos de la seccion Blog*/
 
 .cuerpo-post{
     display: flex;
@@ -146,17 +148,45 @@ header {
    margin: 3px;
 }
 
+/* Estilos de la seccion Soporte*/
+
+.img-configuracion{
+    width: 110px;
+    height: 120px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    
+}
+
+.fondo-soporte{
+    background: rgba(183, 227, 253, 0.38);
+}
+
+.post-soporte{
+
+    width: 180px;
+    height: 400px;
+}
 
 
+.cuerpo-post-soporte{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
+.parrafo-post-soporte{
+    text-align: justify;
+    font-size: 15px;
 
+}
 
-
-
-
-
-
-
+.espacio-post{
+   
+}
 
 
 
