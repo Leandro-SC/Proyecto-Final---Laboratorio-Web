@@ -213,11 +213,12 @@
                                                 class="card-img-top img-configuracion">
                                         </picture>
 
-                                        <h4 class="text-center subtitulo-post">Asistencia Inmediata</h4>
+                                        <h4 class="text-center subtitulo-post-soporte">Asistencia Inmediata</h4>
 
                                         <div class="espacio-post">
 
-                                            <p parrafo-post-soporte> Brindamos soluciones rápidas y efectivas sin
+                                            <p class="parrafo-post-soporte"> Brindamos soluciones rápidas y efectivas
+                                                sin
                                                 necesidad de que salgas de tu
                                                 hogar.
                                             </p>
@@ -236,9 +237,10 @@
                                                 class="card-img-top img-configuracion">
                                         </picture>
 
-                                        <h4 class="text-center subtitulo-post">Equipo de expertos técnicos</h4>
+                                        <h4 class="text-center subtitulo-post-soporte">Equipo de expertos técnicos</h4>
 
-                                        <p parrafo-post>Nuestro equipo capacitado está disponible para atender tus
+                                        <p class="parrafo-post-soporte">Nuestro equipo capacitado está disponible para
+                                            atender tus
                                             consultas y
                                             resolver
                                             cualquier
@@ -256,9 +258,11 @@
                                                 class="card-img-top img-configuracion">
                                         </picture>
 
-                                        <h4 class="text-center subtitulo-post">Amplia cobertura de problemas</h4>
+                                        <h4 class="text-center subtitulo-post-soporte">Amplia cobertura de problemas
+                                        </h4>
 
-                                        <p parrafo-post>Desde problemas de software hasta configuraciones complicadas o
+                                        <p class="parrafo-post-soporte">Desde problemas de software hasta
+                                            configuraciones complicadas o
                                             fallos del
                                             sistema,
                                             estamos aquí
@@ -276,9 +280,10 @@
                                                 class="card-img-top img-configuracion">
                                         </picture>
 
-                                        <h4 class="text-center subtitulo-post">Comunicación versátil</h4>
+                                        <h4 class="text-center subtitulo-post-soporte">Comunicación versátil</h4>
 
-                                        <p parrafo-post>Ofrecemos opciones de chat en vivo, correo electrónico y llamada
+                                        <p class="parrafo-post-soporte">Ofrecemos opciones de chat en vivo, correo
+                                            electrónico y llamada
                                             telefónica
                                             para
                                             una
@@ -289,16 +294,16 @@
                                 </section> <!----Fin del Post------->
                             </div>
 
-                            <input type="button" value="irSoporte">
+                            <input type="button" value="Visitar" class="btn btn-lg btn-position">
 
                 </section> <!----------fin de soporte---------------->
 
                 <!----------Seccion Reserva---------------->
                 <section class="cuerpo mt-5" id="reserva">
-                    <h3>Reserva Citas</h3>
+                    <h3 id="titulo-reserva">Reserva Citas</h3>
                     <a name="reserva"></a>
 
-                    <div class="seccion-reserva">
+                    <div class="seccion-reserva d-flex align-items-center container">
 
                         <div class="seccion-derecha">
                             <h3>¡Reserva una cita con nuestro equipo técnico y obtén la asistencia que necesitas!</h3>
@@ -310,47 +315,75 @@
                                 tu
                                 sesión.</p>
 
-                            <input type="button" value="reservarCita">
+                            <input type="button" value="Reservar" class="btn btn-lg btn-position-naranja">
 
                         </div>
 
-                        <img src="./img/img_horario.jpg" alt="imagen horario">
+                        <picture>
+                            <img src="./img/img_horario.jpg" alt="imagen horario" class="formato-img-horario">
+                        </picture>
 
                     </div>
-
-
 
 
                 </section> <!----------fin de reserva---------------->
 
                 <!----------Seccion Productos---------------->
-                <section class="cuerpo mt-5" id="productos">
-                    <h3>Productos y Accesorios</h3>
+                <section class="cuerpo mt-5 fondo-productos" id="productos">
+                    <h3 id="titulo-producto">Productos y Accesorios</h3>
                     <a name="productos"></a>
 
-                    <h4>¡Descubre nuestra amplia selección de productos tecnológicos y encuentra todo lo que necesitas!
+
+                    <h4 class="subtitulo-productos">¡Descubre nuestra amplia selección de productos tecnológicos y
+                        encuentra todo lo que necesitas!
                     </h4>
 
                     <!--------Carrusel--------->
 
-                    <input type="button" value="explorarProductos">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active">
+                                <img src="./img/img-laptop.png" class="d-block mx-auto img-fluid w-25"
+                                    alt="foto laptop">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/img-antivirus.png" class="d-block mx-auto w-25" alt="foto antivirus">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/img_pc.png" class="d-block mx-auto w-25" alt="foto pc">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+
+                    <input type="button" value="Explorar" class="btn btn-lg btn-position-naranja">
 
                 </section> <!----------fin de productos---------------->
 
 
                 <!----------Seccion Contactenos---------------->
                 <section class="cuerpo mt-5" id="contactenos">
-                    <h3>Contáctenos</h3>
+                    <h3 class="titulo-blog">Contáctenos</h3>
                     <a name="contactenos"></a>
 
-                    <img src="./img/img_contacto.jpeg" alt="imagen contactenos">
-
-                    <!------Formulario---------->
+                    <div class="seccion-formulario">
+                                     <!------Formulario---------->
                     <form class="formulario">
 
                         <div class="fondo-formulario">
 
-                            <h3>Formulario de Registro</h3>
+                            <h3 >Formulario de Registro</h3>
 
                             <label for="name">Nombre Completo</label>
                             <input class="input-text" type="text" id="name" name="name" placeholder="Nombre y Apellido">
@@ -371,6 +404,9 @@
                         <input type="button" value="Enviar">
 
                     </form>
+
+                    <img src="./img/img_contacto.jpeg" alt="imagen contactenos">
+                    </div>
 
                 </section> <!----------fin de contactenos---------------->
             </div>
