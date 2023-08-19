@@ -377,35 +377,50 @@
                     <h3 class="titulo-blog">Contáctenos</h3>
                     <a name="contactenos"></a>
 
-                    <div class="seccion-formulario">
-                                     <!------Formulario---------->
-                    <form class="formulario">
+                    <div class="seccion-formulario d-flex align-items-center container">
+                        <!------Formulario---------->
+                        <form class="formulario">
 
-                        <div class="fondo-formulario">
+                            <div class="fondo-formulario">
 
-                            <h3 >Formulario de Registro</h3>
+                                <h4 class="titulo-blog">Formulario de Registro</h4>
 
-                            <label for="name">Nombre Completo</label>
-                            <input class="input-text" type="text" id="name" name="name" placeholder="Nombre y Apellido">
+                                <div class="row mb-3 elemento-formulario">
+                                    <label for="name" class="formato-label">Nombre Completo</label>
+                                    <input class="input-text" type="text" id="name" name="name"
+                                        placeholder="Nombre y Apellido">
+                                </div>
 
-                            <label for="email">Correo Electronico</label>
-                            <input class="input-text" type="email" id="email" name="email"
-                                placeholder="correo@email.com">
+                                <div class="row mb-3 elemento-formulario">
+                                    <label for="email" class="formato-label">Correo Electronico</label>
+                                    <input class="input-text" type="email" id="email" name="email"
+                                        placeholder="correo@email.com">
+                                </div>
 
-                            <label for="telefono">Telefono</label>
-                            <input class="input-text" type="tel" id="telefono" name="telefono" placeholder="987987987">
+                                <div class="row mb-3 elemento-formulario">
+                                    <label for="telefono" class="formato-label">Telefono</label>
+                                    <input class="input-text" type="tel" id="telefono" name="telefono"
+                                        placeholder="987987987">
+                                </div>
 
-                            <img id="icon-google" class="icono-login" src="./img/google-vector.svg" alt="icono google">
-                            <img id="icon-facebook" class="icono-login" src="./img/facebook-vector.svg"
-                                alt="icono facebook">
+                                <div class="iconos-login">
+                                    <img id="icon-google" class="icono-login" src="./img/google-vector.svg"
+                                        alt="icono google">
+                                    <img id="icon-facebook" class="icono-login" src="./img/facebook-vector.svg"
+                                        alt="icono facebook">
+                                </div>
 
-                        </div>
+                                    <div class="boton">
+                                        <input type="button" value="Enviar" class="btn btn-lg btn-position-naranja ">
+                                    </div>
 
-                        <input type="button" value="Enviar">
+                            </div>
 
-                    </form>
+                            
 
-                    <img src="./img/img_contacto.jpeg" alt="imagen contactenos">
+                        </form>
+
+                        <img src="./img/img_contacto.jpeg" alt="imagen contactenos" class="formato-img-horario">
                     </div>
 
                 </section> <!----------fin de contactenos---------------->
@@ -417,14 +432,16 @@
     <!----------pie de pagina---------------->
     <footer id="pie">
 
-        <div class="iconos-redes_sociales">
+        <div class="contenedor-footer">
+            <div class="iconos-redes_sociales">
 
-            <img src="./img/fb_vector.svg" alt="icono facebook">
-            <img src="./img/tw_vector.svg" alt="icono twitter">
-            <img src="./img/lk_vector.svg" alt="icono linkedin">
+                <img src="./img/fb_vector.svg" alt="icono facebook">
+                <img src="./img/tw_vector.svg" alt="icono twitter">
+                <img src="./img/lk_vector.svg" alt="icono linkedin">
+            </div>
+    
+            <p>Todos los Derechos Reservados 2023</p>
         </div>
-
-        <p>Todos los Derechos Reservados 2023</p>
 
     </footer>
 

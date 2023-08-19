@@ -276,6 +276,59 @@ header {
     justify-content: center;
 }
 
+.fondo-formulario{
+    background: rgba(67, 179, 243, 0.15);
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.iconos-login{
+    display: flex;
+    justify-content: center;
+}
+
+.icono-login{
+    margin: 25px;
+}
+
+.elemento-formulario{
+    margin: 30px;
+}
+
+::placeholder {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    
+  }
+
+.formato-label{
+    text-align: start;
+    font-size: 14px;
+    color: #0154D1;
+    font-family: 'Roboto Slab', serif;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1B98E0;
+    padding: 13px;
+}
+
+.contenedor-footer p{
+    color: white;
+}
+
+
 
 
 
