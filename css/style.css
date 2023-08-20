@@ -166,11 +166,13 @@ header {
 
 .fondo-soporte{
     background: rgba(183, 227, 253, 0.38);
+    border-radius: 15px;
 }
 
 .post-soporte{
-    width: 180px;
-    height: 400px;
+    width: 250px;
+    margin: 10px;
+
 }
 
 
@@ -349,6 +351,8 @@ header {
     justify-content: end;
 }
 
-
-
+.configuracion-card{
+    width: 300px;
+    margin: 15px;
+ }
 
