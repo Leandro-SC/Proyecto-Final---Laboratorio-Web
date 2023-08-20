@@ -1,4 +1,5 @@
 
+/*Modificar estilos de la barra de navegaciòn*/
 .nav-link{
     font-size: 16px;
     text-transform: uppercase;
@@ -13,12 +14,10 @@
 
 }
 
-
+/*Modificar estilos del card*/
  .card{
     width: 300px;
  }
-
-/*Carrusel de imagenes*/
 
 
 

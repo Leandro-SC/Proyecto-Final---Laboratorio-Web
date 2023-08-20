@@ -1,3 +1,4 @@
+/*Reseteo de espacios y margenes*/
 * {
     margin: 0px;
     padding: 0px;
@@ -43,6 +44,7 @@ header {
 
 
 /* Estilo para la imagen del icono */
+
 #img-icono {
     height: 55px;
     width: 90px;
@@ -150,6 +152,7 @@ header {
 
 /* Estilos de la seccion Soporte*/
 
+/*Cambia el formato de tamaño y estilos de una imagen*/
 .img-configuracion{
     width: 110px;
     height: 120px;
@@ -166,7 +169,6 @@ header {
 }
 
 .post-soporte{
-
     width: 180px;
     height: 400px;
 }
@@ -315,6 +317,7 @@ header {
     justify-content: center;
 }
 
+/*Seccion del Footer*/
 
 .contenedor-footer{
     display: flex;
@@ -322,17 +325,29 @@ header {
     align-items: center;
     background: #1B98E0;
     padding: 13px;
+    margin: 25px;
 }
 
 .contenedor-footer p{
     color: white;
 }
 
+.configuracion-icono{
+    width: 45px;
+    height: 38px;
+    margin: 10px;
+}
 
 
+.configuracion-parrafo{
+    font-size: 14px;
+    margin: 10px;
+}
 
-
-
+.alinear-btn-derecha{
+    display: flex;
+    justify-content: end;
+}
 
 
 

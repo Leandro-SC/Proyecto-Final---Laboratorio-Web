@@ -1,31 +1,34 @@
+/*Estilos Css de formato movil*/
 
-@media (max-width: 782px) {
+@media (max-width: 792px) {
 
-    /*Seccion Blog*/
+    /*Alinea en columnas las secciones de Blog cuando sea menor a 792px*/
     .cuerpo-post{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .btn-position{
+    /*Cambia el ancho del boton a 400px*/
+    .btn-formato-movil{
         width: 400px;
     }
 
+    /*Configura el div del boton cambiando a un ancho por defecto y alinea al centro*/
     .fondo-btn{
         display: flex;
         width: auto;
         justify-content: center;
     }
 
-    /*Seccion Soporte*/
-
-    .cuerpo-post-soporte{
+    /*Alinea en columnas las secciones de Blog cuando sea menor a 792px y cambia la posiciòn de los elementos del ultimo al primero*/
+    .formato-movil{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
-    
+
+
 }
 
 
