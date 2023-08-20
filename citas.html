@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/boostrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-movil.css">
+    <title>Tecno Respaldo</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+
+            <!----------Navegacion-------------------------->
+            <nav class="navbar navbar-expand-lg fondo fixed-top">
+
+                <a href="index.html"><img id="img-icono" src="./img/icono.jpg" alt="icono" ></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start bg-info" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mi Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="blog.html">Bloc Tec</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="soporte.html">Soporte Online</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="citas.html">Reserva Citas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="contacto.html">Contáctenos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+
+    <main class="container-fluid mt-5 ">
+
+                <!----------Seccion Reserva---------------->
+                <section class="cuerpo mt-5" id="reserva">
+                    <h3 id="titulo-reserva">Reserva Citas</h3>
+                   
+
+                    <div class="seccion-reserva d-flex align-items-center container formato-movil">
+
+                        <div class="seccion-derecha">
+                            <h3>¡Reserva una cita con nuestro equipo técnico y obtén la asistencia que necesitas!</h3>
+
+                            <p>Nuestro objetivo es brindarte un servicio eficiente y sin demoras. Al reservar una cita,
+                                te
+                                garantizamos un tiempo de espera mínimo y la dedicación total de nuestro equipo técnico
+                                durante
+                                tu
+                                sesión.</p>
+
+                            <div class="boton">
+                                <input type="button" value="Reservar"
+                                    class="btn btn-lg btn-position-naranja btn-formato-movil">
+                            </div>
+
+                        </div>
+
+                        <picture>
+                            <img src="./img/img_horario.jpg" alt="imagen horario" class="formato-img-horario">
+                        </picture>
+
+                    </div>
+
+
+                </section> <!----------fin de reserva---------------->
+
+
+            </div>
+        </div>
+    </main>
+
+
+    <!----------pie de pagina---------------->
+    <footer id="pie">
+
+        <div class="contenedor-footer">
+            <div class="iconos-redes_sociales">
+
+                <img src="./img/fb_vector.svg" alt="icono facebook" class="configuracion-icono">
+                <img src="./img/tw_vector.svg" alt="icono twitter" class="configuracion-icono">
+                <img src="./img/lk_vector.svg" alt="icono linkedin" class="configuracion-icono">
+            </div>
+
+            <p class="configuracion-parrafo">Todos los Derechos Reservados 2023</p>
+        </div>
+
+    </footer>
+
+
+
+    <!------Scripts---------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
